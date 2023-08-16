@@ -73,7 +73,7 @@ div#upper_ribbon {
   box-sizing: border-box; }
 
 input[type=text] {
-  width: 70vh;
+  width: 600px;
   box-sizing: border-box;
   align-items: center;
   border: 2px solid #343434;
@@ -86,27 +86,26 @@ input[type=text] {
   padding-left: 30px; }
 
 input[type=submit] {
-  height: 5vh;
-  width: 30vh;
-  border-radius: 0.8vh;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
   text-align: center;
   justify-content: center; }
 
-#logo_area {
-  margin-top: 10%;
-  text-align: center; }
-
 div#logo_area {
+  margin-top: 5%;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100px;
+  min-height: 220px;
   max-height: 290px;
   height: calc(100% - 560px);
   flex-shrink: 0;
   box-sizing: border-box; }
 
 div#SearchBox {
+  margin: top 10px; ;
   padding: 20px;
   max-height: 160px;
   max-width: 800px;
@@ -115,7 +114,10 @@ div#SearchBox {
   box-sizing: border-box;
   position: center;
   width: 100%;
-  height: fit-content; }
+  height: fit-content;
+  display: flex;
+  justify-content: center; }
+
 
 .detective-lens {
   position: absolute;
@@ -143,9 +145,6 @@ div#SearchButtons {
 .SearchBar {
   position: relative; }
 
-div#SearchBox {
-  display: flex;
-  justify-content: center;
-  flex-direction: row; }
+
 
 /*# sourceMappingURL=style.css.map */
