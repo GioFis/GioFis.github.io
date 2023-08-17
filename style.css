@@ -18,7 +18,9 @@ body {
   justify-content: center;
   background: url(images/blueback.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  overflow-x:hidden;
+  overflow-y:auto; }
 
 #upper_ribbon {
   position: fixed;
@@ -87,7 +89,8 @@ input[type=text] {
 
 @media (max-width: 600px) {
   input[type=text] {
-    width: 85%;}
+    width: 85%;
+    margin: 0 auto;}
   }
 
 
